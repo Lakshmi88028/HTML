@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <script type="text/javascript" src="login.js"></script>
+    <style>
+      .div1 img {
+        width: 250px;
+        height: 100px;
+        text-align: center;
+        margin-left: 580px;
+        margin-top: 80px;
+      }
+      body{
+        background-color:lightgray;
+      }
+      body{
+        transform-box: center;
+      }
+      .form {
+        margin-left: 620px;
+        margin-top: 60px;
+      }    
+      input {
+        margin-top: 10px;
+        width: 150px;
+        height: 20px;
+      }
+      button {
+        
+        padding-left: 80px;
+        text-align: center;
+      }
+
+    </style>
+  </head>
+  <body class="box">
+    <header>
+      
+      <div class="div1">
+        <img
+          src="https://phonepe.force.com/servlet/servlet.ImageServer?id=0152v00000HBVSr&oid=00D7F000000pJ65&lastMod=1595511744000"
+          alt=""
+        />
+      </div>
+    </header>
+
+    <div class="form">
+      <form>
+        <label><b>User Email</b></label>
+        <br />
+        <input id="email" type="email" placeholder="email" />
+        <br />
+        <br />
+        <label><b>password</b></label>
+        <br />
+        <input id="password" type="password" placeholder="password" />
+        <br />
+        <br />
+        
+        <p id="resp"></p>
+        <input type="button" onclick="validlogin()" value="Login" />
+        <br />
+        <p>Not yet Register <a href="Register.html">Register Now</a></p>
+      </form>
+    </div>
+  </body>
+</html>

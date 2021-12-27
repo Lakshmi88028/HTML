@@ -1,0 +1,31 @@
+.div1 img {
+  width: 150px;
+  height: 100px;
+  margin-left: 150px;
+}
+header {
+  background-color: white;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.div1 h3 {
+  margin-left: 100px;
+}
+body {
+  background-image: url("https://cdn.editorji.com/6006e93a79a1d_phonepe-overtakes-google-pay.JPG");
+}
+.box{
+  padding:25px ;
+  width:310px;
+  position: absolute;
+  top:10%;
+  left:10%;
+  transform: translate(-10%,-10%);
+  background: rgba(0,0,0,0.4);
+  text-align: center;
+
+
+
+}
